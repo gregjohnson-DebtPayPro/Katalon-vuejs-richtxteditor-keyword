@@ -59,3 +59,5 @@ toMenuBar.addProperty('xpath', ConditionType.EQUALS, '//div[@class="menubar"]')
 RichTextEditorKeywords.selectTextFormat(toMenuBar, RichTextEditorKeywords.MenuItem.Bold.toString(), true)
 RichTextEditorKeywords.selectFirstText(to, "example of")
 RichTextEditorKeywords.selectTextFormat(toMenuBar, RichTextEditorKeywords.MenuItem.Bold.toString(), true)
+
+WebUI.closeBrowser()
